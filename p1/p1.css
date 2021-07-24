@@ -1,0 +1,56 @@
+body {
+  background: #f2f2f2;
+}
+
+.list__style {
+}
+
+.navbar__style {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+    align-items: center;
+}
+
+li a {
+  background: blue;
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.posts {
+  display:flex;
+  width: 800px;
+
+}
+
+.posts__number-like, .posts__number-comment, .posts__number-view {
+  display:block;
+  flex: 1;
+}
+
+.posts__body {
+  flex: 12;
+}
+
+.posts__title {
+  font-weight: bold;
+}
+
+.posts__content {
+  color: grey;
+  font-size: 18px;
+}
+
+.posts__info {
+  display: flex;
+}
